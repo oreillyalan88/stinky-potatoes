@@ -28,7 +28,7 @@ gem 'devise'
 gem 'paperclip', '~> 5.1'
 #__________________________________________________________________________
 
-
+gem 'jquery'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
