@@ -5,6 +5,15 @@ class MoviesController < ApplicationController
   def index
     @movies = Movie.all
   end
+  
+  
+  def search 
+    if params[:search].present?
+      @movies = Movie.search(params[:search])
+    else 
+      @movies = Movie.all
+    end
+  end
 
  
   def show

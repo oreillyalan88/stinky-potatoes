@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise'
 gem 'paperclip', '~> 5.1'
+gem 'searchkick', '~> 1.4', '>= 1.4.1'
 #__________________________________________________________________________
 
 gem 'jquery'
